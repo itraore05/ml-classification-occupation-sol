@@ -89,13 +89,22 @@ Données (bandes B1-B10, indices, textures)
 ```
 ml-classification-occupation-sol/
 ├── notebook/
-│   └── classification_occupation_sol.ipynb   # Pipeline complet (à venir)
+│   └── classification_occupation_sol.ipynb   # Pipeline complet
 ├── rapport/
 │   └── rapport_scientifique.pdf               # Rapport de 22 pages
 └── README.md
 ```
 
-> ℹ️ Le jeu de données a été fourni dans le cadre du cours et n'est pas publié ici.
+> ℹ️ Le jeu de données a été fourni dans le cadre du cours et n'est pas publié ici. Pour exécuter le notebook, placer le fichier de données à côté du notebook.
+
+## ▶️ Utilisation
+
+```bash
+git clone https://github.com/itraore05/ml-classification-occupation-sol.git
+pip install pandas numpy scikit-learn imbalanced-learn xgboost boruta shap scikit-posthocs statsmodels scipy matplotlib seaborn openpyxl
+```
+
+Ouvrir le notebook dans Jupyter ou Google Colab et exécuter les cellules dans l'ordre.
 
 ## 💡 Compétences démontrées
 
